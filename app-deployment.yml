@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nextjs-app
-        # image: <your-docker-repo>/nextjs-app:latest
-        image: nextjs-app:latest
+        image: yumekiti/nextjs-app:latest
+        # image: nextjs-app:latest
         ports:
         - containerPort: 3000

@@ -6,7 +6,6 @@ argocd app create \
   --dest-server https://kubernetes.default.svc \
   --dest-namespace default \
   --sync-policy automated \
-  --auto-sync \
   --auto-prune \
   --self-heal
 ```
